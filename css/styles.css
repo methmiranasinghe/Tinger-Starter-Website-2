@@ -5,9 +5,9 @@
 
 }
 
-body{
+/* body{
   overflow-x: hidden;
-}
+} */
 h1{
   font-family:'Montserrat';
   font-size: 3.5rem;
@@ -16,8 +16,8 @@ h1{
 
 }
 
-.container-fluid{
-  padding: 3% 15%;
+.container{
+  padding: 5% 15%;
 
 }
 
@@ -69,10 +69,10 @@ nav{
 }
 
 .title-img{
-  position: absolute;
-  width: 60%;
-  height: 40%;
-  transform: rotate(25deg);
+  position:absolute;
+  width: 250px;
+  height: 400px;
+  transform: rotate(20deg);
 }
 
 .icon{
@@ -94,7 +94,7 @@ nav{
 
 /* features  Section*/
 #features{
-  position: relative;
+  position:relative;
   z-index: 1;
   padding: 7% 15%;
   background-color: #fff;
