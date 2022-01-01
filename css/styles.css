@@ -1,20 +1,38 @@
-#title {
-  background-color: #ff4c68;
-  font-family: 'Montserrat';
-  color: #fff;
+
+
+ body{
+   text-align: center;
+
+}
+nav {
+  margin: 0 0 4.5rem;
 }
 
-/* body{
-  overflow-x: hidden;
-} */
-h1 {
+navbar {
+  padding-bottom: 4.5rem;
+}
+
+h2, h3 {
+  font-family: "Montserrat"
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.text {
   font-family: 'Montserrat';
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
 .container {
-  padding: 5% 15% 7%;
+  padding: 3% 15% 7%;
 }
 
 /* .btn btn-dark i{
@@ -26,10 +44,6 @@ nav .navbar-brand {
   font-family: 'Ubuntu';
   font-size: 2.5rem;
   font-weight: bold;
-}
-
-navbar {
-  padding-bottom: 4.5rem;
 }
 
 nav .navbar-nav li {
@@ -44,9 +58,14 @@ nav .navbar-nav li a:hover {
   /* font-size: 1.5rem; */
 }
 
-nav {
-  margin: 0 0 4.5rem;
+#title {
+  background-color: #ff4c68;
+  font-family: 'Montserrat';
+  color: #fff;
+  text-align: left;
 }
+
+
 
 /* Download Buttons */
 .download-btn {
@@ -80,37 +99,46 @@ nav {
   background-color: #fff;
 }
 
+.feature-title{
+  font-size: 1.5rem;
+
+}
+
+
 .feature-box {
   padding: 4.5%;
-  text-align: center;
-}
 
-h3 {
-  font-family: "Montserrat"
-}
-
-p {
-  color: #8f8f8f;
 }
 
 /* Testimonials Section */
 #testimonials {
   color: #fff;
-  text-align: center;
   background-color: #ff4c68;
 }
 
-h2 {
-  font-family: "Montserrat";
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.testimonial-img {
+  display: block;
+  margin: auto;
+  width: 20%;
+  border-radius: 100%;
+}
+
+.header-2{
+
   font-size: 3rem;
   line-height: 1.5;
 }
 
-.testimonial-img {
-  margin: 20px;
-  width: 10%;
-  border-radius: 100%;
+.header-2-para{
+  font-size: 1.5rem;
 }
+
+
 
 .carousel-item {
   padding: 7% 15%;
@@ -119,7 +147,6 @@ h2 {
 /* press section */
 #press {
   background-color: #ff4c68;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -137,9 +164,7 @@ h2 {
   margin: 20px 20px 50px;
 }
 
-.header-2 {
-  text-align: center;
-}
+
 
 .card-3 {
   line-height: 1.2;
@@ -155,19 +180,12 @@ h2 {
 
 /* credits section */
 #cta {
-  text-align: center;
   margin: 0%;
   padding: 10%;
   background-color: #ff4c68;
   color: #fff;
   font-family: "Montserrat"
 }
-
-.cta-font {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
 /* footer section */
 #footer {
   text-align: center;
@@ -181,6 +199,7 @@ h2 {
 }
 
 .social-icon {
+
   margin: 20px 10px;
   color: #fff;
   font-size: 2rem;
