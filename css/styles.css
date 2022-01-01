@@ -64,14 +64,6 @@ nav .navbar-nav li a:hover {
   color: #fff;
   text-align: left;
 }
-
-
-
-/* Download Buttons */
-.download-btn {
-  margin: 5% 3% 5% 0;
-}
-
 .title-img {
   position: absolute;
   width: 250px;
@@ -79,6 +71,14 @@ nav .navbar-nav li a:hover {
   transform: rotate(20deg);
   right: 12%;
 }
+
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+
 
 .icon {
   padding: 13px;
